@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timer {
+    display: flex;
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.settings {
+    margin-bottom: 40px;
+}
+
+.settings_button {
+    border-style: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+.settings_button:last-child {
+    margin-right: 0;
+}
+
+select {
+    padding: 3px 5px;
+    margin-right: 10px;
+}
+select:last-child {
+    margin-right: 0;
+}
+.custom-date span {
+    margin-right: 5px;
+}
